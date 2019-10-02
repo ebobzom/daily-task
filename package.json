@@ -1,0 +1,25 @@
+{
+  "name": "daily-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ebobzom/daily-task.git",
+  "author": "Elijah Bobzom <ebobzom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node ./api/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "helmet": "^3.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
